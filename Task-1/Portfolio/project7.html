@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+          <fieldset>
+    <h1>Request Form</h1>
+    <p><b>pls fill out the form below to submit your Request</b></p>
+    <form>
+      <label>Fisrt name: </label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label>Last name</label>
+        <br>
+        <input type="text" placeholder="Enter your Fisrt name" required> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" placeholder="Enter your Laast name" required>
+        <br><br>
+        <label>Email Address</label>
+        <br>
+        <input type="email" placeholder="Enter the Email" size="40" required>
+        <br><br>
+        <label>Phone number</label>
+        <br>
+        <input type="tel" pattern="+91 [0-9]{9}" placeholder="enter your mobile number" size="40" required><br><br>
+        <label>Request type</label>
+        <br>
+        <select>
+            <option>General Enqiry</option>
+            <option>Order Realated Enquiry</option>
+            <option>Complain</option>
+            <option>Feedback</option>
+        </select><br><br>
+        <label>Request details</label><br>
+        <textarea cols="100" rows="4" placeholder="Enter your Request details"></textarea><br><br>
+        <label>Attachments</label><br>
+        <input type="file" size="40"><br><br>
+        <input type="checkbox">I Accept the terms and cond
+        <br><br>
+        <input type="submit" value="Submit Request" >
+    </form>
+     </fieldset>
+    
+</body>
+</html>
